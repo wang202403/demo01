@@ -126,6 +126,9 @@ def extract_code(response_text, output_file):
 
         print("ccccc")
 
+
+        print("eeeee")
+
 def process_files_standard(input_dir, output_dir, max_files):
     cwe_pattern = re.compile(r'^(CWE\d+)_.*\.c$')
     processed_count = 0
