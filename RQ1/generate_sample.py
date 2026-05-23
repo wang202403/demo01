@@ -112,22 +112,8 @@ def extract_code(response_text, output_file):
         with open(output_file, 'w') as file:
             file.write(code_snippet)
         print(f"Code extracted and saved to {output_file}")
-
-        print("dddddd")
     else:
         print("No code snippet found in the response.")
-
-
-        print("aaaaaaa")
-
-
-        print("bbbbb")
-
-
-        print("ccccc")
-
-
-        print("eeeee")
 
 def process_files_standard(input_dir, output_dir, max_files):
     cwe_pattern = re.compile(r'^(CWE\d+)_.*\.c$')
